@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Turru: Stealth Chat &amp; Call Shield</title>
+  <meta name="description" content="Official Privacy Policy for Turru: Stealth Chat & Call Shield (com.turru.stealthshield) by 311devlabs. Local-first message & contacts processing with optional opt-in SHA-256 hashed Community Spam Caller ID." />
+  <style>
+    :root {
+      --bg: #f4f7f9;
+      --surface: #ffffff;
+      --surface-alt: #f8fafc;
+      --border: #e2e8f0;
+      --text: #0f172a;
+      --text-muted: #475569;
+      --accent: #0d9488;
+      --accent-dark: #065f46;
+      --accent-soft: #ecfdf5;
+      --accent-border: #a7f3d0;
+      --warn-bg: #fffbeb;
+      --warn-border: #fde68a;
+      --warn-text: #92400e;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 28px 16px 60px;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #042f2e 0%, #0d9488 100%);
+      color: #ffffff;
+      border-radius: 18px;
+      padding: 28px 26px;
+      margin-bottom: 22px;
+      box-shadow: 0 12px 28px rgba(13, 148, 136, 0.18);
+    }
+
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+
+    .logo-badge {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .hero h1 {
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 1.25;
+    }
+
+    .hero-sub {
+      font-size: 14px;
+      opacity: 0.92;
+      margin-top: 4px;
+    }
+
+    .meta-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .pill {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 11px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.16);
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      color: #ffffff;
+    }
+
+    .lang-bar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .lang-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      border-radius: 10px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      text-decoration: none;
+      font-size: 13.5px;
+      font-weight: 700;
+      transition: border-color 0.15s ease, color 0.15s ease;
+    }
+
+    .lang-link:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 26px;
+      margin-bottom: 22px;
+      box-shadow: 0 2px 10px rgba(15, 23, 42, 0.04);
+    }
+
+    .lang-badge {
+      display: inline-block;
+      font-size: 11.5px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent-dark);
+      border: 1px solid var(--accent-border);
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 21px;
+      font-weight: 800;
+      margin-bottom: 10px;
+      color: var(--text);
+    }
+
+    h3 {
+      font-size: 16.5px;
+      font-weight: 700;
+      margin: 20px 0 8px;
+      color: var(--text);
+    }
+
+    h4 {
+      font-size: 14.5px;
+      font-weight: 700;
+      margin: 14px 0 6px;
+      color: var(--accent-dark);
+    }
+
+    p {
+      font-size: 14.5px;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 8px 0 12px;
+    }
+
+    li {
+      font-size: 14.5px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    strong {
+      color: var(--text);
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12.5px;
+      background: #f1f5f9;
+      color: #0369a1;
+      padding: 2px 6px;
+      border-radius: 5px;
+    }
+
+    .highlight-box {
+      background: var(--accent-soft);
+      border: 1px solid var(--accent-border);
+      border-radius: 12px;
+      padding: 14px 16px;
+      margin: 14px 0;
+    }
+
+    .highlight-box p:last-child,
+    .highlight-box ul:last-child {
+      margin-bottom: 0;
+    }
+
+    .contact-box {
+      background: var(--surface-alt);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 16px;
+      margin-top: 12px;
+    }
+
+    .contact-note {
+      background: var(--warn-bg);
+      border: 1px solid var(--warn-border);
+      color: var(--warn-text);
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-size: 13px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 12.5px;
+      color: var(--text-muted);
+      margin-top: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .card { padding: 20px 16px; }
+      .hero { padding: 22px 18px; }
+      .hero h1 { font-size: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header class="hero">
+      <div class="brand-row">
+        <div class="logo-badge" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <path d="M14.5 9.5a3.5 3.5 0 1 0 3.5 3.5 3 3 0 0 1-3.5-3.5z"/>
+          </svg>
+        </div>
+        <div>
+          <h1>Privacy Policy — Turru: Stealth Chat &amp; Call Shield</h1>
+          <div class="hero-sub">Developer: <strong>311devlabs</strong> &bull; Package ID: <code>com.turru.stealthshield</code></div>
+        </div>
+      </div>
+      <div class="meta-pills">
+        <span class="pill">Effective Date: 20 November 2026</span>
+        <span class="pill">Local-First Chat &amp; Contacts</span>
+        <span class="pill">Opt-In SHA-256 Spam Shield</span>
+        <span class="pill">HTTPS Encrypted</span>
+      </div>
+    </header>
+
+    <nav class="lang-bar" aria-label="Language jump links">
+      <a class="lang-link" href="#english">🌐 English Version (Play Review)</a>
+      <a class="lang-link" href="#indonesia">🇮🇩 Versi Bahasa Indonesia</a>
+    </nav>
+
+    <!-- ENGLISH SECTION -->
+    <section id="english" class="card">
+      <span class="lang-badge">English Version</span>
+      <h2>Privacy Policy — Turru: Stealth Chat &amp; Call Shield</h2>
+      <p><strong>Effective Date:</strong> 20 November 2026 &bull; <strong>Developer:</strong> 311devlabs</p>
+      <p>
+        This Privacy Policy explains how <strong>Turru: Stealth Chat &amp; Call Shield</strong> ("the App", package <code>com.turru.stealthshield</code>) accesses, processes, and protects data on your Android device.
+      </p>
+
+      <div class="highlight-box">
+        <p><strong>1. Local-First Privacy Architecture &amp; Opt-In Hashed Community Protection</strong></p>
+        <ul>
+          <li>All <strong>incoming messages, notification media, device contacts, Allow/Block rules, and personal call logs</strong> are stored <strong>100% locally</strong> in an on-device SQLite database (<code>android:allowBackup="false"</code>) and are <strong>NEVER uploaded, sold, or shared</strong> with any server or third party.</li>
+          <li>By default, the <strong>Community Spam Database</strong> feature is <strong>OFF</strong>, meaning the App operates completely offline with zero network traffic.</li>
+          <li>Internet access (<code>INTERNET</code>) is used <strong>strictly on an opt-in basis</strong> only if you explicitly enable the Community Spam Database to check or report unknown spam callers—transmitting solely salted one-way <code>SHA-256</code> hashes of unknown numbers, structured category tags, and an anonymous app-generated reporter ID over HTTPS.</li>
+        </ul>
+      </div>
+
+      <h3>2. Sensitive Permissions Disclosure</h3>
+
+      <h4>A. Notification Access (<code>android.permission.BIND_NOTIFICATION_LISTENER_SERVICE</code>)</h4>
+      <ul>
+        <li><strong>Data Accessed:</strong> Text and image previews of incoming message notifications and incoming call notification status from supported apps (<strong>WhatsApp, WhatsApp Business, Telegram, and SMS</strong>).</li>
+        <li><strong>Purpose of Use:</strong>
+          <ul>
+            <li>Displaying incoming messages locally inside the App so you can read them privately without triggering read receipts, and preserving messages deleted by the sender (Anti-Delete).</li>
+            <li>Detecting incoming VoIP call notifications from unknown numbers, displaying Caller ID context, and automatically declining blocked calls (<code>PendingIntent</code> Decline) according to your rules.</li>
+          </ul>
+        </li>
+        <li><strong>Storage:</strong> Stored exclusively on your device's internal storage and never transmitted off-device.</li>
+      </ul>
+
+      <h4>B. Contacts Permission (<code>android.permission.READ_CONTACTS</code>)</h4>
+      <ul>
+        <li><strong>Data Accessed:</strong> Contact display names and phone numbers saved in your device's address book.</li>
+        <li><strong>Purpose of Use:</strong>
+          <ul>
+            <li>Verifying locally whether an incoming caller is already a saved contact so friends and family are never blocked or queried against the Community Spam server.</li>
+            <li>Helping you pick phone numbers directly from your contacts to add to your <strong>Allow List (Whitelist)</strong> or <strong>Block List (Blacklist)</strong>.</li>
+          </ul>
+        </li>
+        <li><strong>Storage:</strong> Read strictly on-device during call matching or contact selection; <strong>your contacts are never uploaded or shared</strong>.</li>
+      </ul>
+
+      <h4>C. Biometric Authentication (<code>android.permission.USE_BIOMETRIC</code>)</h4>
+      <ul>
+        <li><strong>Data Accessed:</strong> Local authentication confirmation via the Android system <code>BiometricPrompt</code> API (fingerprint/face unlock), when enabled by you in Settings.</li>
+        <li><strong>Storage:</strong> Biometric credentials are handled entirely by your Android operating system hardware security module. The App never accesses, stores, or transmits raw biometric data.</li>
+      </ul>
+
+      <h4>D. Cellular Call Screening, Caller ID Overlay &amp; Notifications (<code>BIND_SCREENING_SERVICE</code> / <code>ROLE_CALL_SCREENING</code>, <code>SYSTEM_ALERT_WINDOW</code>, <code>POST_NOTIFICATIONS</code>)</h4>
+      <ul>
+        <li><strong>Data Accessed:</strong> Incoming cellular (GSM) phone number provided by Android's official <code>CallScreeningService</code> API, only if you voluntarily choose Turru as your Android Caller ID &amp; Spam app.</li>
+        <li><strong>Purpose of Use:</strong>
+          <ul>
+            <li>Identifying unknown cellular callers locally (carrier, city/country prefix, public official hotlines, cross-reference with local chat history in Turru, and your personal tags) and optionally checking hashed spam reputation if Community Spam is enabled.</li>
+            <li>Automatically rejecting calls from spam-tagged or unknown numbers according to your rules.</li>
+            <li>Displaying a real-time floating Caller ID card (<code>SYSTEM_ALERT_WINDOW</code>, optional) or heads-up notification (<code>POST_NOTIFICATIONS</code>) while your phone rings.</li>
+          </ul>
+        </li>
+        <li><strong>Compliance:</strong> Uses Android's official <code>ROLE_CALL_SCREENING</code> role and does not request restricted <code>READ_CALL_LOG</code> or <code>READ_PHONE_STATE</code> permissions.</li>
+      </ul>
+
+      <h4>E. Optional Community Spam Database (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code> — Opt-In Only)</h4>
+      <ul>
+        <li><strong>Opt-In Control:</strong> Disabled by default. No data is transmitted unless you explicitly enable Community Spam Database after consenting to the in-app disclosure.</li>
+        <li><strong>Data Transmitted When Enabled (HTTPS TLS Encrypted):</strong>
+          <ul>
+            <li><strong>Salted one-way <code>SHA-256</code> hash</strong> of an unknown caller's normalized phone number (raw phone numbers are never stored on the server; saved Contacts are never queried).</li>
+            <li><strong>Structured spam/safe category tag</strong> (e.g. Scam, Debt Collector, Telemarketing, Courier, Safe) and optional sanitized short label (only displayed publicly if corroborated by at least 2 distinct devices).</li>
+            <li><strong>Anonymous random <code>reporter_id</code></strong> (a hashed random UUID stored locally; not linked to your name, email, Google account, IMEI, or phone number) used solely for 1-device-1-vote anti-abuse and daily rate-limiting.</li>
+          </ul>
+        </li>
+        <li><strong>No Third-Party Sharing or Ads:</strong> Data is processed solely by our dedicated Cloudflare Workers &amp; D1 endpoint (<code>https://turru-spam-api.digiwork-jkt.workers.dev</code>) for fraud/spam prevention and is never sold or shared with advertisers or data brokers.</li>
+      </ul>
+
+      <h3>3. User Control &amp; Data Deletion</h3>
+      <ul>
+        <li>You may delete individual chats, all saved messages, call logs, personal tags, or the offline community spam cache at any time inside the App.</li>
+        <li>You may turn off <strong>Community Spam Database</strong> or revoke <strong>Notification Access</strong>, <strong>Contacts</strong>, <strong>Caller ID &amp; Spam Role</strong>, or <strong>Overlay</strong> permissions at any time in Settings.</li>
+        <li>Uninstalling the App permanently removes the entire local SQLite database and anonymous <code>reporter_id</code> from your device. Community reports contain only anonymous one-way hashes with no personally identifiable information.</li>
+        <li>For privacy or deletion inquiries, contact us at <a href="mailto:support@turru.site" style="color:var(--accent); font-weight:600;">support@turru.site</a>.</li>
+      </ul>
+
+      <h3>4. Children's Privacy</h3>
+      <p>
+        The App is not intended for children under the age of 13 and does not knowingly collect personally identifiable information from children.
+      </p>
+
+      <h3>5. Non-Affiliation Disclaimer</h3>
+      <p>
+        Turru: Stealth Chat &amp; Call Shield is an independent privacy utility tool developed by <strong>311devlabs</strong>. It is not affiliated with, endorsed by, or officially connected with WhatsApp LLC, Meta Platforms Inc., or Telegram FZ-LLC.
+      </p>
+
+      <h3>6. Contact Us</h3>
+      <div class="contact-box">
+        <p style="margin-bottom:4px;"><strong>Developer:</strong> 311devlabs</p>
+        <p style="margin-bottom:0;"><strong>Support Email:</strong> <a href="mailto:support@turru.site" style="color:var(--accent); font-weight:600;">support@turru.site</a></p>
+      </div>
+    </section>
+
+    <!-- INDONESIAN SECTION -->
+    <section id="indonesia" class="card">
+      <span class="lang-badge">Versi Bahasa Indonesia</span>
+      <h2>Kebijakan Privasi — Turru: Stealth Chat &amp; Call Shield</h2>
+      <p><strong>Tanggal Efektif:</strong> 20 November 2026 &bull; <strong>Pengembang:</strong> 311devlabs</p>
+      <p>
+        Kebijakan Privasi ini menjelaskan bagaimana aplikasi <strong>Turru: Stealth Chat &amp; Call Shield</strong> ("Aplikasi", ID paket <code>com.turru.stealthshield</code>) mengakses, memproses, dan melindungi data di perangkat Android Anda.
+      </p>
+
+      <div class="highlight-box">
+        <p><strong>1. Prinsip Privasi Utama (<em>Local-First</em>) &amp; Perlindungan Komunitas <em>Opt-In</em> Berbasis Hash</strong></p>
+        <ul>
+          <li>Seluruh <strong>isi pesan masuk, media pratinjau notifikasi, Buku Kontak HP, daftar Allow/Blokir, dan riwayat panggilan pribadi</strong> disimpan <strong>100% secara lokal</strong> di database SQLite internal perangkat Anda (<code>android:allowBackup="false"</code>) dan <strong>TIDAK pernah diunggah, dijual, atau dibagikan</strong> ke server atau pihak ketiga mana pun.</li>
+          <li>Secara bawaan (<em>default</em>), fitur <strong>Database Spam Komunitas</strong> dalam keadaan <strong>NONAKTIF</strong>, sehingga Aplikasi bekerja sepenuhnya secara offline tanpa lalu lintas jaringan.</li>
+          <li>Akses internet (<code>INTERNET</code>) <strong>hanya digunakan secara sukarela (<em>opt-in</em>)</strong> jika Anda mengaktifkan Database Spam Komunitas untuk mengecek atau melaporkan nomor spam—dan data yang dikirim melalui HTTPS hanyalah <strong>hash satu arah <code>SHA-256</code></strong> dari nomor asing, kategori tag terstruktur, serta ID pelapor acak anonim.</li>
+        </ul>
+      </div>
+
+      <h3>2. Pengungkapan Penggunaan Izin Sensitif (Prominent Disclosure)</h3>
+
+      <h4>A. Izin Akses Notifikasi (<code>android.permission.BIND_NOTIFICATION_LISTENER_SERVICE</code>)</h4>
+      <ul>
+        <li><strong>Data yang Diakses:</strong> Teks dan pratinjau gambar notifikasi pesan masuk serta status notifikasi panggilan masuk dari aplikasi yang didukung (<strong>WhatsApp, WhatsApp Business, Telegram, dan SMS</strong>).</li>
+        <li><strong>Tujuan Penggunaan:</strong>
+          <ul>
+            <li>Menampilkan isi pesan masuk di dalam Aplikasi agar dapat dibaca tanpa memicu tanda baca (<em>Mode Siluman</em>) serta menyimpan pesan yang dihapus oleh pengirim (<em>Anti-Delete</em>).</li>
+            <li>Mendeteksi panggilan VoIP masuk dari nomor tidak dikenal, menampilkan info Caller ID, dan menolak otomatis panggilan sesuai aturan Daftar Allow/Blokir Anda (<code>PendingIntent</code> Decline).</li>
+          </ul>
+        </li>
+        <li><strong>Penyimpanan:</strong> Disimpan hanya di memori internal perangkat Anda dan tidak pernah dikirim keluar perangkat.</li>
+      </ul>
+
+      <h4>B. Izin Membaca Kontak (<code>android.permission.READ_CONTACTS</code>)</h4>
+      <ul>
+        <li><strong>Data yang Diakses:</strong> Nama tampilan kontak dan nomor telepon yang tersimpan di Buku Kontak perangkat Anda.</li>
+        <li><strong>Tujuan Penggunaan:</strong>
+          <ul>
+            <li>Memverifikasi secara lokal apakah penelepon merupakan kontak tersimpan agar panggilan teman/keluarga tidak salah diblokir dan tidak pernah dicek ke server komunitas.</li>
+            <li>Memudahkan Anda memilih nomor dari buku telepon untuk dimasukkan ke <strong>Daftar Allow (Whitelist)</strong> atau <strong>Daftar Blokir (Blacklist)</strong>.</li>
+          </ul>
+        </li>
+        <li><strong>Penyimpanan:</strong> Hanya dibaca secara lokal di perangkat Anda; <strong>daftar kontak Anda tidak pernah dikirim atau dibagikan ke server mana pun</strong>.</li>
+      </ul>
+
+      <h4>C. Autentikasi Biometrik (<code>android.permission.USE_BIOMETRIC</code>)</h4>
+      <ul>
+        <li><strong>Data yang Diakses:</strong> Konfirmasi autentikasi lokal melalui sistem Android <code>BiometricPrompt</code> (sidik jari / pengenalan wajah) apabila Anda mengaktifkan fitur Kunci Aplikasi.</li>
+        <li><strong>Penyimpanan:</strong> Proses biometrik ditangani sepenuhnya oleh perangkat keras keamanan Android. Aplikasi tidak pernah membaca, menyimpan, maupun mengirim data biometrik Anda.</li>
+      </ul>
+
+      <h4>D. Penyaringan Panggilan Seluler, Overlay Caller ID &amp; Notifikasi (<code>BIND_SCREENING_SERVICE</code> / <code>ROLE_CALL_SCREENING</code>, <code>SYSTEM_ALERT_WINDOW</code>, <code>POST_NOTIFICATIONS</code>)</h4>
+      <ul>
+        <li><strong>Data yang Diakses:</strong> Nomor telepon seluler (GSM) masuk melalui API resmi <code>CallScreeningService</code> Android, hanya jika Anda memilih Turru sebagai aplikasi ID Penelepon &amp; Spam bawaan Android.</li>
+        <li><strong>Tujuan Penggunaan:</strong>
+          <ul>
+            <li>Mengidentifikasi nomor asing secara lokal (operator seluler, kode wilayah/negara, direktori nomor resmi publik, kecocokan riwayat chat lokal di Turru, dan tag pribadi Anda) serta mengecek reputasi hash spam jika fitur Komunitas diaktifkan.</li>
+            <li>Menolak otomatis panggilan dari nomor bertag spam atau nomor tidak dikenal sesuai aturan Anda.</li>
+            <li>Menampilkan kartu popup Caller ID di atas layar (<code>SYSTEM_ALERT_WINDOW</code>, opsional) atau notifikasi heads-up (<code>POST_NOTIFICATIONS</code>) saat ponsel berdering.</li>
+          </ul>
+        </li>
+        <li><strong>Kepatuhan:</strong> Menggunakan peran resmi <code>ROLE_CALL_SCREENING</code> Android dan tidak meminta izin terbatas <code>READ_CALL_LOG</code> atau <code>READ_PHONE_STATE</code>.</li>
+      </ul>
+
+      <h4>E. Database Spam Komunitas Opsional (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code> — Khusus Opt-In)</h4>
+      <ul>
+        <li><strong>Kendali Opt-In:</strong> Nonaktif secara bawaan. Tidak ada koneksi internet selama fitur ini tidak Anda aktifkan.</li>
+        <li><strong>Data yang Dikirim Jika Diaktifkan (Terenkripsi HTTPS TLS):</strong>
+          <ul>
+            <li><strong>Hash satu arah <code>SHA-256</code> (dengan salt)</strong> dari nomor telepon asing (server tidak menyimpan nomor mentah; nomor di Buku Kontak tidak pernah dicek).</li>
+            <li><strong>Kategori tag terstruktur</strong> (mis. Penipuan, Pinjol/DC, Telemarketing, Kurir, Aman) dan label singkat opsional yang hanya tampil ke publik jika dikonfirmasi minimal 2 perangkat berbeda.</li>
+            <li><strong>ID pelapor acak anonim (<code>reporter_id</code>)</strong> berupa hash UUID lokal (bukan IMEI, bukan akun Google, bukan nomor HP Anda) semata-mata untuk aturan 1 perangkat = 1 suara dan pembatasan spam laporan.</li>
+          </ul>
+        </li>
+        <li><strong>Tanpa Iklan &amp; Tanpa Penjualan Data:</strong> Data diproses khusus oleh server Cloudflare Workers &amp; D1 milik kami (<code>https://turru-spam-api.digiwork-jkt.workers.dev</code>) untuk pencegahan spam/penipuan dan tidak pernah dijual atau dibagikan ke pengiklan atau broker data.</li>
+      </ul>
+
+      <h3>3. Kontrol Pengguna &amp; Penghapusan Data</h3>
+      <ul>
+        <li>Anda dapat menghapus riwayat percakapan, seluruh pesan tersimpan, log panggilan, tag nomor pribadi, maupun cache spam komunitas kapan saja di dalam Aplikasi.</li>
+        <li>Anda dapat mematikan <strong>Database Spam Komunitas</strong> atau mencabut izin <strong>Akses Notifikasi</strong>, <strong>Kontak</strong>, peran <strong>Caller ID &amp; Spam</strong>, maupun <strong>Overlay</strong> kapan saja lewat Pengaturan.</li>
+        <li>Menghapus instalasi (<em>uninstall</em>) Aplikasi akan menghapus permanen seluruh database SQLite lokal dan <code>reporter_id</code> anonim dari perangkat Anda.</li>
+        <li>Untuk pertanyaan privasi atau permintaan penghapusan data, hubungi <a href="mailto:support@turru.site" style="color:var(--accent); font-weight:600;">support@turru.site</a>.</li>
+      </ul>
+
+      <h3>4. Privasi Anak</h3>
+      <p>
+        Aplikasi ini tidak ditujukan untuk anak-anak di bawah usia 13 tahun dan tidak secara sadar mengumpulkan data pribadi dari anak-anak.
+      </p>
+
+      <h3>5. Disclaimer Non-Afiliasi</h3>
+      <p>
+        Turru: Stealth Chat &amp; Call Shield adalah aplikasi utilitas privasi independen yang dikembangkan oleh <strong>311devlabs</strong> dan tidak berafiliasi dengan WhatsApp LLC, Meta Platforms Inc., maupun Telegram FZ-LLC.
+      </p>
+
+      <h3>6. Kontak Pengembang</h3>
+      <div class="contact-box">
+        <p style="margin-bottom:4px;"><strong>Pengembang:</strong> 311devlabs</p>
+        <p style="margin-bottom:0;"><strong>Email Dukungan:</strong> <a href="mailto:support@turru.site" style="color:var(--accent); font-weight:600;">support@turru.site</a></p>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2026 311devlabs &bull; Turru: Stealth Chat &amp; Call Shield (<code>com.turru.stealthshield</code>)
+    </footer>
+
+  </div>
+</body>
+</html>
